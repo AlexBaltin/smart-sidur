@@ -21,7 +21,7 @@ class Employee(Base):
     password = Column(String)
 
     def to_dict(self):
-        return {column.name: getattr(self, column.name) for column in self.__table__.columns}
+        return {column.name: getattr(self, column.name) for column in self.__table__.columns if column.name != "password"}
 
 
 Base.metadata.create_all(bind=engine)
