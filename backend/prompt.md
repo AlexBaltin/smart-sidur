@@ -12,7 +12,7 @@ Every seller should have one day off between Sunday and Thursday, but the days o
 - Friday Shift (07:00 - 15:00): Sellers on Friday work from 07:00 to 15:00.
 - Saturday Shift (18:00 - 22:30): Sellers on Saturday work from 18:00 to 22:30.
 
-A seller must work either Friday or Saturday, but not both. Every worker must be assigned to one of these days.
+A seller must work either Friday or Saturday, but not both. Every worker must be assigned to one of these days. Any worker cannot have a day off on both of those days. 
 The majority of workers should be scheduled to work on Friday, with a smaller group assigned to Saturday. This balance should be maintained to avoid overloading either day.
 
 ## Input Format:
